@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="554dp"
+    android:layout_height="354dp"
+    android:background="@drawable/background_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/check_code"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/check_code_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/login_pswd"
+            android:layout_width="260.0dip"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:background="@drawable/edit_text"
+			android:inputType="textPassword"
+            android:padding="8.0dip"
+            android:hint="@string/verify_code"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="120sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:background="@drawable/buttonselector"
+            android:focusable="true"
+            android:text="@string/but_yes"
+            android:textColor="@color/white"
+            android:textSize="20sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="120sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:background="@drawable/buttonselector"
+            android:focusable="true"
+            android:text="@string/but_no"
+            android:textColor="@color/white"
+            android:textSize="20sp" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

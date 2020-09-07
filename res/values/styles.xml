@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="button">
+        <item name="android:layout_width">@dimen/setitem_btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/setitem_text_size1</item>
+    </style>
+
+</resources>

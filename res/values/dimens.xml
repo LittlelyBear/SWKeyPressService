@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="test_width">-1dp</dimen>
+    <dimen name="test_height">-1dp</dimen>
+    <dimen name="setitem_left_margin_router">10dp</dimen>
+    <dimen name="setitem_text1">340dp</dimen>
+    <dimen name="setitem_text2">300dp</dimen>
+    <dimen name="about_item_height">43dp</dimen>
+    <dimen name="action_bar_switch_padding">16dip</dimen>
+    <dimen name="text_remote_size">18sp</dimen>
+    <dimen name="titlebar_height">0dp</dimen>
+
+    <!-- 标题 -->
+    <dimen name="title_left">80dp</dimen>
+    <dimen name="title_size">30sp</dimen>
+
+    <dimen name="setitem_text_size">16sp</dimen>
+    <dimen name="setitem_text_size1">24sp</dimen>
+    
+    <dimen name="setitem_btn_width">185dp</dimen>
+</resources>

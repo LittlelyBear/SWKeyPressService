@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SWKeyPressService</string>
+    <string name="information">信息</string>
+    <string name="tv_msg">发现新电视，您的屏幕显示是否正常？</string>
+    <string name="display_confirm_msg">屏幕分辨率已经改变，\n是否保存设置？</string>
+    <string name="but_yes">确定</string>
+    <string name="but_no">取消</string>
+
+	<!--开启adb服务方法-->
+	<string name="ts_title">发送验证码发给管理人员,获取校验码</string>
+	<string name="check_code">验证码:</string>
+	<string name="verify_code">校验码</string>
+    <string name="pwd_is_null">密码不能为空！</string>
+    <string name="pwd_err_retry">密码错误，请重新输入</string>
+    
+    <string name="wifi_hide">隐藏WiFi功能,发送验证码发给管理人员,获取校验码</string>
+    <string name="wifi_show">显示WiFi功能,发送验证码发给管理人员,获取校验码</string>
+    <string name="warrant_time">授权时间：</string>
+
+</resources>
