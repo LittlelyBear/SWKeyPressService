@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.sunniwell.app.press_key"
     android:sharedUserId="android.uid.system"
-    android:versionCode="20081201"
-    android:versionName="20.08.13.01" >
+    android:versionCode="20092101"
+    android:versionName="20.09.21.01" >
 
     <uses-sdk android:minSdkVersion="14" />
 
